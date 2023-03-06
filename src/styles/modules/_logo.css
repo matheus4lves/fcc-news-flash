@@ -1,0 +1,11 @@
+.logo {
+  display: block;
+  text-decoration: none;
+}
+
+.logo__text {
+  font-family: "Poppins", sans-serif;
+  color: var(--light-color);
+  font-size: 1.5rem;
+  margin: 0;
+}
