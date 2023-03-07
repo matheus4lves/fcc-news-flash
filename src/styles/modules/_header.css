@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 16px;
+  background: var(--secondary-background-color);
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.header__option {
+  display: block;
+  padding-left: 20px;
+  color: var(--light-color-alt);
+  font-size: 1.5rem;
+}
+
+.header__option:hover {
+  color: var(--light-color);
+}
