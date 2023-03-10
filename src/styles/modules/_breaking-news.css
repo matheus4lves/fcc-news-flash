@@ -1,0 +1,24 @@
+.breaking-news {
+  display: flex;
+  align-items: center;
+  background: var(--secondary-background-color);
+}
+
+.breaking-news__span {
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.breaking-news__cta {
+  border: 4px solid yellow;
+  color: var(--light-color);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.breaking-news__news {
+  color: var(--light-color-alt);
+  font-size: 0.8rem;
+}

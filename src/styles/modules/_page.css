@@ -4,3 +4,7 @@
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
 }
+
+.page__breaking-news {
+  margin: 30px 16px 16px;
+}
