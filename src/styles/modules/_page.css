@@ -8,3 +8,10 @@
 .page__breaking-news {
   margin: 30px 16px 16px;
 }
+
+.page__featured-articles {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin: 0 16px;
+}
