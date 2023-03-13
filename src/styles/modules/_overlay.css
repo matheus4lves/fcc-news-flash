@@ -1,0 +1,39 @@
+.overlay {
+  background: #000000bb;
+  transition: background 0.25s;
+  padding: 20px 12px;
+}
+
+.overlay__para {
+  color: var(--light-color-alt);
+  font-size: 0.8rem;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+.overlay__separator {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: var(--light-color-alt);
+  margin: 0px 16px;
+  transform: rotate(45deg);
+}
+
+.overlay__heading {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  margin: 0;
+}
+
+.featured-article:hover .overlay {
+  background: var(--primary-background-color);
+}
+
+.featured-article:hover .overlay__para {
+  color: var(--light-color);
+}
+
+.featured-article:hover .overlay__separator {
+  background: var(--light-color);
+}
