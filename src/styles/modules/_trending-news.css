@@ -1,0 +1,14 @@
+.trending-news {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 20px;
+  background: var(--secondary-background-color);
+  padding: 24px;
+}
+
+.trending-news__heading {
+  color: var(--light-color);
+  text-align: center;
+  margin: 0;
+  padding: 16px 0 10px 0;
+}

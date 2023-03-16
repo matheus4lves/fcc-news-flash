@@ -3,4 +3,5 @@
   --light-color-alt: #afb6cd;
   --primary-background-color: #131417;
   --secondary-background-color: #252830;
+  --transparent-light-color: rgba(255, 255, 255, 0.05);
 }
