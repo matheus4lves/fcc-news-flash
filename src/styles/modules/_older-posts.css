@@ -1,0 +1,21 @@
+.older-posts {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 20px;
+}
+
+.older-posts__heading {
+  color: var(--light-color);
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.older-posts__heading::after {
+  content: "Older posts";
+  opacity: 0.1;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  position: absolute;
+  top: 15px;
+  left: 22px;
+}

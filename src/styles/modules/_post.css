@@ -1,0 +1,17 @@
+.post {
+  position: relative;
+  height: 400px;
+}
+
+.post__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.post__overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
