@@ -1,0 +1,21 @@
+.popular-tags {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 20px;
+}
+
+.popular-tags__heading {
+  color: var(--light-color);
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.popular-tags__heading::after {
+  content: "Popular tags";
+  opacity: 0.1;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  position: absolute;
+  top: 15px;
+  left: 22px;
+}
