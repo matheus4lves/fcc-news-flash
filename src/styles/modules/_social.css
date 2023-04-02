@@ -1,0 +1,8 @@
+.social__link {
+  text-decoration: none;
+}
+
+.social__icon {
+  color: var(--light-color-alt);
+  font-size: 1.5rem;
+}

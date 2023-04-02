@@ -31,3 +31,8 @@
 .page__newsletter {
   margin: 48px 16px 20px 16px;
 }
+
+.page__footer {
+  padding: 48px 16px 40px 16px;
+  background: var(--secondary-background-color);
+}

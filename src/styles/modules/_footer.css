@@ -1,0 +1,24 @@
+.footer__section-heading {
+  color: var(--light-color);
+  text-transform: uppercase;
+  margin: 0;
+  padding-block-end: 24px;
+}
+
+.footer__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__link {
+  display: block;
+  padding-block-end: 24px;
+  text-decoration: none;
+  color: var(--light-color-alt);
+}
+
+.footer__para,
+.footer__copyright {
+  color: var(--light-color-alt);
+}
