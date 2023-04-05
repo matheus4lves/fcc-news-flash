@@ -6,6 +6,10 @@
   background: var(--secondary-background-color);
 }
 
+.header--hidden {
+  display: none;
+}
+
 .header__logo {
   margin-right: auto;
 }
