@@ -13,11 +13,33 @@
     <script src="scripts/index.js" defer></script>
   </head>
   <body class="page">
-    <header class="header">
-      <a class="logo header__logo" href=""><h1 class="logo__text">NewsFlash</h1></a>
-      <i class="header__option search ri-sun-line"></i>
-      <i class="header__option ri-search-line"></i>
-      <i class="header__option ri-menu-3-line"></i>
+    <!-- Page header -->
+    <header>
+      <!-- Mobile header -->
+      <div id="header-mobile" class="header">
+        <a class="logo header__logo" href=""><h1 class="logo__text">NewsFlash</h1></a>
+        <button class="header__btn"><i class="header__icon search ri-sun-line"></i></button>
+        <button class="header__btn"><i class="header__icon ri-search-line"></i></button>
+        <button class="header__btn"><i class="header__icon ri-menu-3-line"></i></button>
+      </div>
+      <!-- Desktop header -->
+      <div id="header-desktop" class="header">
+        <a class="logo" href=""><h1 class="logo__text">NewsFlash</h1></a>
+        <nav class="primary-nav header__nav">
+          <ul class="primary-nav__list">
+            <li class="primary-nav__item"><a class="primary-nav__link" href="">Home</a></li>
+            <li class="primary-nav__item"><a class="primary-nav__link" href="">Categories</a></li>
+            <li class="primary-nav__item"><a class="primary-nav__link" href="">Revies</a></li>
+            <li class="primary-nav__item"><a class="primary-nav__link" href="">News</a></li>
+            <li class="primary-nav__item"><a class="primary-nav__link" href="">Membership</a></li>
+            <li class="primary-nav__item"><a class="primary-nav__link" href="">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="header__btn"><i class="header__icon search ri-sun-line"></i></button>
+        <button class="header__btn"><i class="header__icon ri-search-line"></i></button>
+        <a class="header__sign-in" href="">Sign in</a>
+        <a class="header__sign-up" href="">Sign up</a>
+      </div>
     </header>
     <div>
       <!-- Featured articles -->
