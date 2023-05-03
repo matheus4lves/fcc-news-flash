@@ -3,6 +3,8 @@
 @import "modules/_page.css";
 @import "modules/_logo.css";
 @import "modules/_header.css";
+@import "modules/_primary-content.css";
+@import "modules/_main-content.css";
 @import "modules/_breaking-news.css";
 @import "modules/_article.css";
 @import "modules/_overlay.css";

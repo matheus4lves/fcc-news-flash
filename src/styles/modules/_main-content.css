@@ -1,0 +1,8 @@
+.main-content {
+  display: grid;
+  grid-template-columns: auto;
+  /* Using max-content here because auto sized tracks will take up the remaining space
+  to become as tall as the tallest item */
+  grid-template-rows: max-content max-content;
+  grid-gap: 20px;
+}
