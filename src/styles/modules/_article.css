@@ -1,0 +1,44 @@
+.article {
+  position: relative;
+  height: 300px;
+  width: auto;
+  overflow: hidden;
+}
+
+.article__tag {
+  display: inline-block;
+  padding: 10px 8px;
+  background: var(--primary-background-color);
+  color: var(--light-color);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.article__img {
+  display: block;
+  /* First, we have to define how much of the container's available
+  space will be taken by the image. */
+  width: 100%;
+  height: 100%;
+  /* Second, we have to specify how  the content of the replaced element
+  will be resized to fit its container. Setting object-fit: cover; will
+  fill the container without distorting the image. Any overflowing content
+  si clipped. */
+  object-fit: cover;
+}
+
+.article__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .article {
+    height: 360px;
+  }
+}
