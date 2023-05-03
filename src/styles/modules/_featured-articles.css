@@ -1,0 +1,15 @@
+.featured-articles {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .featured-articles {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .featured-articles__article:last-child {
+    grid-column: 1 / 3;
+  }
+}
