@@ -41,85 +41,91 @@
         <a class="header__sign-up" href="">Sign up</a>
       </div>
     </header>
-    <div>
-      <!-- Featured articles -->
-      <main>
-        <div class="breaking-news page__breaking-news"><span class="breaking-news__span breaking-news__cta">breaking news</span><span class="breaking-news__span breaking-news__news">Apple announces a new partnership...</span></div>
-        <section class="page__featured-articles">
-          <article class="featured-article">
-            <span class="featured-article__tag">technology</span>
-            <img class="featured-article__img" src="images/featured-1.jpg" alt="A teenager wearing VR glasses" width="1280" height="854" />
-            <div class="overlay featured-article__overlay">
-              <p class="overlay__para"><span>Dec 5th 2021</span><span class="overlay__separator"></span><span>8 Min read</span></p>
-              <h3 class="overlay__heading">Is VR the future?</h3>
-            </div>
-          </article>
-          <article class="featured-article">
-            <span class="featured-article__tag">food</span>
-            <img class="featured-article__img" src="images/featured-2.jpg" alt="The interior of a restaurant" width="1280" height="720" />
-            <div class="overlay featured-article__overlay">
-              <p class="overlay__para"><span>Dec 6th 2021</span><span class="overlay__separator"></span><span>4 Min read</span></p>
-              <h3 class="overlay__heading">Fine dining 101</h3>
-            </div>
-          </article>
-          <article class="featured-article">
-            <span class="featured-article__tag">health</span>
-            <img class="featured-article__img" src="images/featured-3.jpg" alt="A surface with some garlic, ginger and other spices" width="1280" height="853" />
-            <div class="overlay featured-article__overlay">
-              <p class="overlay__para"><span>Dec 5th 2021</span><span class="overlay__separator"></span><span>5 Min read</span></p>
-              <h3 class="overlay__heading">Natural fat burner</h3>
-            </div>
-          </article>
-        </section>
-      </main>
-      <!-- Trending news -->
-      <div class="page__trending-news">
+    <!-- Page inner -->
+    <div class="page__inner">
+      <!-- Primary content -->
+      <div class="primary-content">
+        <!-- Main content -->
+        <main class="main-content">
+          <!-- Breaking news -->
+          <div class="breaking-news"><span class="breaking-news__span breaking-news__cta">breaking news</span><span class="breaking-news__span breaking-news__news">Apple announces a new partnership...</span></div>
+          <!-- Featured articles -->
+          <section class="featured-articles">
+            <article class="article featured-articles__article">
+              <span class="article__tag">technology</span>
+              <img class="article__img" src="images/featured-1.jpg" alt="A teenager wearing VR glasses" width="1280" height="854" />
+              <div class="overlay article__overlay">
+                <p class="overlay__para"><span>Dec 5th 2021</span><span class="overlay__separator"></span><span>8 Min read</span></p>
+                <h3 class="overlay__heading">Is VR the future?</h3>
+              </div>
+            </article>
+            <article class="article featured-articles__article">
+              <span class="article__tag">food</span>
+              <img class="article__img" src="images/featured-2.jpg" alt="The interior of a restaurant" width="1280" height="720" />
+              <div class="overlay article__overlay">
+                <p class="overlay__para"><span>Dec 6th 2021</span><span class="overlay__separator"></span><span>4 Min read</span></p>
+                <h3 class="overlay__heading">Fine dining 101</h3>
+              </div>
+            </article>
+            <article class="article featured-articles__article">
+              <span class="article__tag">health</span>
+              <img class="article__img" src="images/featured-3.jpg" alt="A surface with some garlic, ginger and other spices" width="1280" height="853" />
+              <div class="overlay article__overlay">
+                <p class="overlay__para"><span>Dec 5th 2021</span><span class="overlay__separator"></span><span>5 Min read</span></p>
+                <h3 class="overlay__heading">Natural fat burner</h3>
+              </div>
+            </article>
+          </section>
+        </main>
+        <!-- Aside content -->
         <aside class="trending-news">
           <h2 class="trending-news__heading">Trending news</h2>
-          <article class="news">
-            <span class="news__number">01</span>
-            <img class="news__img" src="images/trending_1.jpg" alt="Loren ipsum..." width="400" height="400" />
-            <div class="overlay overlay--bg--opaque news__overlay">
-              <p class="overlay__para"><span>23 Dec 2021</span><span class="overlay__separator"></span><span>3 Min read</span></p>
-              <h3 class="overlay__heading overlay__heading--size--s">Sample article title</h3>
-            </div>
-          </article>
-          <article class="news">
-            <span class="news__number">01</span>
-            <img class="news__img" src="images/trending_2.jpg" alt="Loren ipsum..." width="400" height="400" />
-            <div class="overlay overlay--bg--opaque news__overlay">
-              <p class="overlay__para"><span>23 Dec 2021</span><span class="overlay__separator"></span><span>3 Min read</span></p>
-              <h3 class="overlay__heading overlay__heading--size--s">Sample article title</h3>
-            </div>
-          </article>
-          <article class="news">
-            <span class="news__number">01</span>
-            <img class="news__img" src="images/trending_3.jpg" alt="Loren ipsum..." width="400" height="400" />
-            <div class="overlay overlay--bg--opaque news__overlay">
-              <p class="overlay__para"><span>23 Dec 2021</span><span class="overlay__separator"></span><span>3 Min read</span></p>
-              <h3 class="overlay__heading overlay__heading--size--s">Sample article title</h3>
-            </div>
-          </article>
-          <article class="news">
-            <span class="news__number">01</span>
-            <img class="news__img" src="images/trending_4.jpg" alt="Loren ipsum..." width="400" height="400" />
-            <div class="overlay overlay--bg--opaque news__overlay">
-              <p class="overlay__para"><span>23 Dec 2021</span><span class="overlay__separator"></span><span>3 Min read</span></p>
-              <h3 class="overlay__heading overlay__heading--size--s">Sample article title</h3>
-            </div>
-          </article>
-          <article class="news">
-            <span class="news__number">01</span>
-            <img class="news__img" src="images/trending_5.jpg" alt="Loren ipsum..." width="400" height="400" />
-            <div class="overlay overlay--bg--opaque news__overlay">
-              <p class="overlay__para"><span>23 Dec 2021</span><span class="overlay__separator"></span><span>3 Min read</span></p>
-              <h3 class="overlay__heading overlay__heading--size--s">Sample article title</h3>
-            </div>
-          </article>
+          <div class="trending-news__container">
+            <article class="news">
+              <span class="news__number">01</span>
+              <img class="news__img" src="images/trending_1.jpg" alt="Loren ipsum..." width="400" height="400" />
+              <div class="overlay overlay--bg--opaque news__overlay">
+                <p class="overlay__para"><span>23 Dec 2021</span><span class="overlay__separator"></span><span>3 Min read</span></p>
+                <h3 class="overlay__heading overlay__heading--size--s">Sample article title</h3>
+              </div>
+            </article>
+            <article class="news">
+              <span class="news__number">02</span>
+              <img class="news__img" src="images/trending_2.jpg" alt="Loren ipsum..." width="400" height="400" />
+              <div class="overlay overlay--bg--opaque news__overlay">
+                <p class="overlay__para"><span>23 Dec 2021</span><span class="overlay__separator"></span><span>3 Min read</span></p>
+                <h3 class="overlay__heading overlay__heading--size--s">Sample article title</h3>
+              </div>
+            </article>
+            <article class="news">
+              <span class="news__number">03</span>
+              <img class="news__img" src="images/trending_3.jpg" alt="Loren ipsum..." width="400" height="400" />
+              <div class="overlay overlay--bg--opaque news__overlay">
+                <p class="overlay__para"><span>23 Dec 2021</span><span class="overlay__separator"></span><span>3 Min read</span></p>
+                <h3 class="overlay__heading overlay__heading--size--s">Sample article title</h3>
+              </div>
+            </article>
+            <article class="news">
+              <span class="news__number">04</span>
+              <img class="news__img" src="images/trending_4.jpg" alt="Loren ipsum..." width="400" height="400" />
+              <div class="overlay overlay--bg--opaque news__overlay">
+                <p class="overlay__para"><span>23 Dec 2021</span><span class="overlay__separator"></span><span>3 Min read</span></p>
+                <h3 class="overlay__heading overlay__heading--size--s">Sample article title</h3>
+              </div>
+            </article>
+            <article class="news">
+              <span class="news__number">05</span>
+              <img class="news__img" src="images/trending_5.jpg" alt="Loren ipsum..." width="400" height="400" />
+              <div class="overlay overlay--bg--opaque news__overlay">
+                <p class="overlay__para"><span>23 Dec 2021</span><span class="overlay__separator"></span><span>3 Min read</span></p>
+                <h3 class="overlay__heading overlay__heading--size--s">Sample article title</h3>
+              </div>
+            </article>
+          </div>
         </aside>
       </div>
       <!-- Older posts -->
-      <div class="page__older-posts">
+      <div>
         <section class="older-posts">
           <h2 class="older-posts__heading">Older posts</h2>
           <a href="">
@@ -185,7 +191,7 @@
         </section>
       </div>
       <!-- Popular tags -->
-      <div class="page__popular-tags">
+      <div>
         <section class="popular-tags">
           <h2 class="popular-tags__heading">Popular tags</h2>
           <a href="">
@@ -227,7 +233,7 @@
         </section>
       </div>
       <!-- Newsletter -->
-      <div class="page__newsletter">
+      <div>
         <section class="newsletter">
           <h2 class="newsletter__heading">Newsletter</h2>
           <div class="newsletter__contents">
@@ -240,61 +246,59 @@
           </div>
         </section>
       </div>
-      <!-- Page footer -->
-      <div class="page__footer">
-        <footer class="footer">
-          <section class="footer__section">
-            <h4 class="footer__section-heading">Categories</h4>
-            <nav>
-              <ul class="footer__list">
-                <li><a href="" class="footer__link">Travel</a></li>
-                <li><a href="" class="footer__link">Food</a></li>
-                <li><a href="" class="footer__link">Technology</a></li>
-                <li><a href="" class="footer__link">Health</a></li>
-                <li><a href="" class="footer__link">Nature</a></li>
-                <li><a href="" class="footer__link">Fitness</a></li>
-              </ul>
-            </nav>
-          </section>
-          <section class="footer__section">
-            <h4 class="footer__section-heading">Useful links</h4>
-            <nav>
-              <ul class="footer__list">
-                <li><a href="" class="footer__link">Home</a></li>
-                <li><a href="" class="footer__link">Elements</a></li>
-                <li><a href="" class="footer__link">Tags</a></li>
-                <li><a href="" class="footer__link">Authors</a></li>
-                <li><a href="" class="footer__link">Membership</a></li>
-              </ul>
-            </nav>
-          </section>
-          <section class="footer__section">
-            <h4 class="footer__section-heading">Company</h4>
-            <nav>
-              <ul class="footer__list">
-                <li><a href="" class="footer__link">Contact us</a></li>
-                <li><a href="" class="footer__link">F.A.Q</a></li>
-                <li><a href="" class="footer__link">Careers</a></li>
-                <li><a href="" class="footer__link">Author</a></li>
-                <li><a href="" class="footer__link">Membership</a></li>
-              </ul>
-            </nav>
-          </section>
-          <section class="footer__section">
-            <a class="logo header__logo" href=""><h2 class="logo__text">NewsFlash</h2></a>
-            <p class="footer__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iure. Harum, animi dolores, nam, ad magni expedita.</p>
-            <div class="social">
-              <a class="social__link" href=""><i class="social__icon ri-instagram-line"></i></a>
-              <a class="social__link" href=""><i class="social__icon ri-facebook-circle-line"></i> </a>
-              <a class="social__link" href=""><i class="social__icon ri-twitter-line"></i></a>
-              <a class="social__link" href=""><i class="social__icon ri-pinterest-line"></i></a>
-            </div>
-          </section>
-          <section class="footer__section">
-            <p class="footer__copyright">&copy;2021 NewsFlash. All righs reserved.</p>
-          </section>
-        </footer>
-      </div>
     </div>
+    <!-- Page footer -->
+    <footer class="footer">
+      <section class="footer__section">
+        <h4 class="footer__section-heading">Categories</h4>
+        <nav>
+          <ul class="footer__list">
+            <li><a href="" class="footer__link">Travel</a></li>
+            <li><a href="" class="footer__link">Food</a></li>
+            <li><a href="" class="footer__link">Technology</a></li>
+            <li><a href="" class="footer__link">Health</a></li>
+            <li><a href="" class="footer__link">Nature</a></li>
+            <li><a href="" class="footer__link">Fitness</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="footer__section">
+        <h4 class="footer__section-heading">Useful links</h4>
+        <nav>
+          <ul class="footer__list">
+            <li><a href="" class="footer__link">Home</a></li>
+            <li><a href="" class="footer__link">Elements</a></li>
+            <li><a href="" class="footer__link">Tags</a></li>
+            <li><a href="" class="footer__link">Authors</a></li>
+            <li><a href="" class="footer__link">Membership</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="footer__section">
+        <h4 class="footer__section-heading">Company</h4>
+        <nav>
+          <ul class="footer__list">
+            <li><a href="" class="footer__link">Contact us</a></li>
+            <li><a href="" class="footer__link">F.A.Q</a></li>
+            <li><a href="" class="footer__link">Careers</a></li>
+            <li><a href="" class="footer__link">Author</a></li>
+            <li><a href="" class="footer__link">Membership</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="footer__section">
+        <a class="logo header__logo" href=""><h2 class="logo__text">NewsFlash</h2></a>
+        <p class="footer__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iure. Harum, animi dolores, nam, ad magni expedita.</p>
+        <div class="social">
+          <a class="social__link" href=""><i class="social__icon ri-instagram-line"></i></a>
+          <a class="social__link" href=""><i class="social__icon ri-facebook-circle-line"></i> </a>
+          <a class="social__link" href=""><i class="social__icon ri-twitter-line"></i></a>
+          <a class="social__link" href=""><i class="social__icon ri-pinterest-line"></i></a>
+        </div>
+      </section>
+      <section class="footer__section">
+        <p class="footer__copyright">&copy;2021 NewsFlash. All righs reserved.</p>
+      </section>
+    </footer>
   </body>
 </html>
