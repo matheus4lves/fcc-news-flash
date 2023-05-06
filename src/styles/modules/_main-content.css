@@ -1,8 +1,9 @@
 .main-content {
   display: grid;
   grid-template-columns: auto;
-  /* Using max-content here because auto sized tracks will take up the remaining space
-  to become as tall as the tallest item */
-  grid-template-rows: max-content max-content;
+  grid-template-rows: auto auto;
+  /* If you don't set align-contents, the grid items will stretch to match the height
+  of the heighest item */
+  align-content: start;
   grid-gap: 20px;
 }
