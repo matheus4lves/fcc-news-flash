@@ -6,6 +6,6 @@
 
 @media (min-width: 1024px) {
   .primary-content {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: auto 400px;
   }
 }

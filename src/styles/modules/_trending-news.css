@@ -1,14 +1,20 @@
 .trending-news {
-  display: flex;
-  flex-flow: column nowrap;
-  row-gap: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+  padding: 20px;
   background: var(--secondary-background-color);
-  padding: 24px;
 }
 
 .trending-news__heading {
   color: var(--light-color);
   text-align: center;
   margin: 0;
-  padding: 16px 0 10px 0;
+  padding: 16px;
+}
+
+.trending-news__container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
 }
