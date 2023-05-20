@@ -1,13 +1,12 @@
 .older-posts {
-  display: flex;
-  flex-flow: column nowrap;
-  row-gap: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 40px;
 }
 
 .older-posts__heading {
   color: var(--light-color);
   position: relative;
-  margin-bottom: 40px;
 }
 
 .older-posts__heading::after {
@@ -18,4 +17,16 @@
   position: absolute;
   top: 15px;
   left: 22px;
+}
+
+.older-posts__container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+}
+
+@media (min-width: 1200px) {
+  .older-posts__container {
+    grid-template-columns: 1fr 1fr;
+  }
 }

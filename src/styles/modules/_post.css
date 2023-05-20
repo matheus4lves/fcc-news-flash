@@ -1,17 +1,29 @@
 .post {
-  position: relative;
-  height: 400px;
+  text-decoration: none;
+}
+
+.post__article {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 200px 200px;
 }
 
 .post__img {
+  display: block;
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.post__overlay {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+@media (min-width: 768px) {
+  .post__article {
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .post__article {
+    grid-template-rows: 220px;
+  }
 }
