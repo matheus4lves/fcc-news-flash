@@ -1,13 +1,12 @@
 .popular-tags {
-  display: flex;
-  flex-flow: column nowrap;
-  row-gap: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 40px;
 }
 
 .popular-tags__heading {
   color: var(--light-color);
   position: relative;
-  margin-bottom: 40px;
 }
 
 .popular-tags__heading::after {
@@ -18,4 +17,22 @@
   position: absolute;
   top: 15px;
   left: 22px;
+}
+
+.popular-tags__container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .popular-tags__container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .popular-tags__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
