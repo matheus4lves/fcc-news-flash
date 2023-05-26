@@ -1,8 +1,15 @@
+.social {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 8px;
+}
+
 .social__link {
   text-decoration: none;
 }
 
 .social__icon {
+  display: block;
   color: var(--light-color-alt);
   font-size: 1.5rem;
 }
